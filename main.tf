@@ -1,3 +1,5 @@
+# this is for creating an IAM user, IAM user policy and attach it to the the user created in this configuration file 
+
 resource "aws_iam_user" "tarun" {
   name = "tarun"
 
